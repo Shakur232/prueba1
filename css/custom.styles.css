@@ -1,0 +1,95 @@
+/* Navbar */
+
+.account-cart a{
+    color: rgba(255, 255, 255, 0.7);
+    transition: all .3s linear;
+    font-family: "Merriweather Sans";
+    cursor: pointer;
+}
+.account-cart a:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+.account-cart a{
+    text-decoration: none;
+}
+
+.navbar-shrink .account-cart a{
+    color:#212529;
+}
+.navbar-shrink .account-cart a:hover{
+    color: #f4623a;
+    
+}
+
+
+/* Background Hero */
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../assets/img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+/* Services */
+.card{
+   transition: all .3s ease-in-out;
+   min-height: 581px;
+}
+
+
+.card h5{
+    color:#f4623a;
+    text-align: center;
+    margin-bottom:15px;
+}
+.card:hover{
+    transform: scale(105%);
+}
+.card .card-body a{
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover a{
+    opacity:1;
+}
+
+/* FAQ */
+#faq{
+    background: var(--bs-primary);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.98px){
+    .account-cart a{
+        color: #6c757d;
+    }
+    .account-cart a:hover{
+        color:#f4623a;
+    }
+}
